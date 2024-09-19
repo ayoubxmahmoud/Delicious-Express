@@ -8,7 +8,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   // Intialize the cartItems state to store the items in the cart, defaulting to an empty object
   const [cartItems, setCartItems] = useState({});
-  const url = "https://delicious-express-backend.vercel.app/";
+  const url = "https://food-express-backend-hmvy.onrender.com";
   const [token,setToken] = useState("");
   const [food_list, setFoodList] = useState([])
 
