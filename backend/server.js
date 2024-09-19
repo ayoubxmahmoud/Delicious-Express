@@ -3,11 +3,11 @@
 import express from "express";
 import cors from "cors";
 import { connectDB } from "./config/db.js";
-import foodRouter from "./api/foodRoute.js";
-import userRouter from "./api/userRoute.js";
-import cartRouter from "./api/cartRoute.js";
-import orderRouter from "./api/orderRoute.js";
-import contactRouter from "./api/contactRoute.js";
+import foodRouter from "./routes/foodRoute.js";
+import userRouter from "./routes/userRoute.js";
+import cartRouter from "./routes/cartRoute.js";
+import orderRouter from "./routes/orderRoute.js";
+import contactRouter from "./routes/contactRoute.js";
 import 'dotenv/config'; // Load environment variables
 
 // Create express app
