@@ -1,15 +1,14 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/**/*.js", "use": "@vercel/node" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.js"
-    }
+    { "src": "/api/food", "dest": "/api/food.js" },
+    { "src": "/api/user", "dest": "/api/user.js" },
+    { "src": "/api/cart", "dest": "/api/cart.js" },
+    { "src": "/api/order", "dest": "/api/order.js" },
+    { "src": "/api/contact", "dest": "/api/contact.js" },
+    { "src": "/images/(.*)", "dest": "/uploads/$1" }
   ]
 }
