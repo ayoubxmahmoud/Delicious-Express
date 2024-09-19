@@ -5,7 +5,7 @@
     height: 50vw;
     position: relative;
 
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('header_image.png');
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('../../assets/header_image.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
